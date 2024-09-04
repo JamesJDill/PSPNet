@@ -4,9 +4,11 @@ Semantic Segmentation using Deep Learning: PSPNet Architecture Implementation
   - install script  : conda/install.sh
   - requirement list: conda/requirements.txt
 
-## Project Structure
+# Documentation
 - Additional information can be found in `docs/implementation_details.pdf`.
-.
+- 
+# Code/Directory Structure:
+
 PSPNet
  * [conda](PSPNet/conda)
  * [dataset_lists](PSPNet/dataset_lists)
