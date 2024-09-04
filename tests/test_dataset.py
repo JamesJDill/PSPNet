@@ -5,7 +5,7 @@ from pathlib import Path
 import numpy as np
 import torch
 
-from src.vision.part2_dataset import SemData, make_dataset
+from vision.dataset import SemData, make_dataset
 from src.vision.cv2_transforms import ToTensor
 
 

@@ -4,8 +4,8 @@ import torch
 from torch import nn
 
 import src.vision.cv2_transforms as transform
-from src.vision.part5_pspnet import PSPNet
-from src.vision.part4_segmentation_net import SimpleSegmentationNet
+from vision.pspnet import PSPNet
+from vision.segmentation_net import SimpleSegmentationNet
 
 
 def get_model_and_optimizer(args) -> Tuple[nn.Module, torch.optim.Optimizer]:

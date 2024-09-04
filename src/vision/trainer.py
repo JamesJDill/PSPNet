@@ -22,15 +22,15 @@ from src.vision.utils import get_logger, save_json_dict, load_class_names
 from src.vision.iou import intersectionAndUnionGPU
 from src.vision.avg_meter import AverageMeter, SegmentationAverageMeter
 
-from src.vision.part2_dataset import SemData, KittiData
-from src.vision.part3_training_utils import (
+from vision.dataset import SemData, KittiData
+from vision.training_utils import (
     get_model_and_optimizer,
     get_train_transform,
     get_val_transform,
     update_learning_rate,
 )
-from src.vision.part5_pspnet import PSPNet
-from src.vision.part6_transfer_learning import load_pretrained_model, model_and_optimizer
+from vision.pspnet import PSPNet
+from vision.transfer_learning import load_pretrained_model, model_and_optimizer
 
 cv2.ocl.setUseOpenCL(False)
 cv2.setNumThreads(0)

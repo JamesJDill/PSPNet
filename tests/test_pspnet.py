@@ -4,9 +4,9 @@ import torch
 import math
 from torch import nn
 
-from src.vision.part3_training_utils import get_model_and_optimizer
+from vision.training_utils import get_model_and_optimizer
 from src.vision.part1_ppm import PPM
-from src.vision.part5_pspnet import PSPNet
+from vision.pspnet import PSPNet
 
 
 def test_get_model_and_optimizer_pspnet():

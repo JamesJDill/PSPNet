@@ -7,10 +7,10 @@ import json
 import numpy as np
 import torch
 
-from src.vision.part2_dataset import KittiData
+from vision.dataset import KittiData
 from src.vision.cv2_transforms import ToTensor
-from src.vision.part6_transfer_learning import model_and_optimizer
-from src.vision.part5_pspnet import PSPNet
+from vision.transfer_learning import model_and_optimizer
+from vision.pspnet import PSPNet
 from types import SimpleNamespace
 
 

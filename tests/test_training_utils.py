@@ -4,7 +4,7 @@ import numpy as np
 import torch
 
 import src.vision.cv2_transforms as transform
-from src.vision.part3_training_utils import get_train_transform, get_val_transform
+from vision.training_utils import get_train_transform, get_val_transform
 
 
 def test_get_train_transform():

@@ -4,8 +4,8 @@ from types import SimpleNamespace
 import torch
 from torch import nn
 
-from src.vision.part3_training_utils import get_model_and_optimizer
-from src.vision.part4_segmentation_net import SimpleSegmentationNet
+from vision.training_utils import get_model_and_optimizer
+from vision.segmentation_net import SimpleSegmentationNet
 
 
 def test_get_model_and_optimizer_simplearch():

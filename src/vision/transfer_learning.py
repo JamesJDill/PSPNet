@@ -13,7 +13,7 @@ import torch.nn as nn
 import torch.backends.cudnn as cudnn
 import torch.utils.data
 
-from src.vision.part5_pspnet import PSPNet
+from vision.pspnet import PSPNet
 from src.vision.utils import load_class_names, get_imagenet_mean_std, get_logger, normalize_img
 
 

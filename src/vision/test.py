@@ -25,9 +25,9 @@ import torch.utils.data
 
 import src.vision.cv2_transforms as transform
 from src.vision.avg_meter import AverageMeter
-from src.vision.part2_dataset import SemData
-from src.vision.part5_pspnet import PSPNet
-from src.vision.part4_segmentation_net import SimpleSegmentationNet
+from vision.dataset import SemData
+from vision.pspnet import PSPNet
+from vision.segmentation_net import SimpleSegmentationNet
 from src.vision.trainer import DEFAULT_ARGS
 from src.vision.utils import load_class_names, get_imagenet_mean_std, get_logger, normalize_img
 from src.vision.accuracy_calculator import AccuracyCalculator
