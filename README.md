@@ -1,15 +1,11 @@
-Semantic Segmentation Deep Learning
+Semantic Segmentation using Deep Learning: PSPNet Architecture Implementation
 
-## Getting Started
-  - Ensure that you are using the environment cv_proj5, which you can install using the install script conda/install.sh.
+## Environment Setup
+  - install script: conda/install.sh
 ---
 
 ## Logistics
 - Additional information can be found in `docs/project-5.pdf`.
-
-## Important Notes
-- Do **not** use absolute paths in your code or your code will break.
-- Use relative paths like the starter code already does.
 
 ## Rubric
 
